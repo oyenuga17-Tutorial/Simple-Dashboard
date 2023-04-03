@@ -180,7 +180,6 @@ input {
 
 @media (max-width: 750px) {
   .sidebar {
-    visibility: hidden;
     display: none;
   }
 }
