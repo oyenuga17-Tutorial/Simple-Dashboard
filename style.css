@@ -1,0 +1,186 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.sidebar {
+  background-color: hsl(196, 18%, 16%);
+}
+.sidebar-header {
+  background-color: green;
+}
+
+.lower-section {
+  background-color: hsl(176, 0%, 90%);
+}
+
+/*  */
+.sidebar {
+  min-height: 100vh;
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+.intro-img {
+  max-width: 6rem;
+}
+.intro-img img {
+  width: 60%;
+}
+
+.sidebar p,
+.sidebar h2 {
+  color: hsl(20, 13%, 91%);
+}
+.sidebar i {
+  color: hsl(20, 13%, 91%);
+}
+.sidebar-header h2 {
+  font-family: "Poppin", cursive;
+  font-size: 8rem;
+}
+.sidebar h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.sidebar p {
+  font-weight: 200;
+}
+
+.items i {
+  padding-right: 2rem;
+}
+.sidebar-dashboard {
+  background-color: hsl(218, 22%, 7%);
+}
+/* navbar */
+
+.navbar-wrapper {
+  background-color: hsl(174, 100%, 34%);
+}
+
+.search-container input {
+  background-color: hsl(176, 43%, 86%);
+}
+.search-container-wrapper {
+  width: 20rem;
+}
+input {
+  outline: none;
+}
+
+/* dashboard */
+.dashboard-wrapper {
+  background-color: hsl(0, 0, 100%);
+}
+
+.dashboard-wrapper p,
+.dashboard-wrapper span {
+  color: hsl(50, 3%, 42%);
+  font-weight: 200;
+}
+
+.dashboard-header h1 {
+  font-weight: 300;
+  font-size: 2rem;
+  color: hsl(50, 3%, 42%);
+}
+
+.dashboard-right {
+  width: 10rem;
+}
+.dashboard-right p {
+  color: hsl(165, 30%, 61%);
+}
+.dashboard-icon-wrapper {
+  padding-right: 1rem;
+}
+
+/* card icon */
+
+.card-title {
+  background-color: white;
+  width: 60%;
+  padding-left: 0.5rem;
+  padding-block: 20px;
+}
+.small-card {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.small-card-wrapper {
+}
+.card-icon {
+  background-color: hsl(175, 100%, 29%);
+  width: 40%;
+}
+.card-icon i {
+  color: hsl(357, 64%, 100%);
+}
+.card-icon-1 {
+  background-color: hsl(175, 100%, 29%);
+}
+.card-icon-2 {
+  background-color: hsl(186, 79%, 40%);
+}
+.card-icon-3 {
+  background-color: hsl(45, 100%, 52%);
+}
+.card-icon-4 {
+  background-color: hsl(357, 64%, 53%);
+}
+
+/* chart */
+.charts {
+  background-color: hsl(218, 22%, 100%);
+}
+.chart h3 {
+  color: hsl(12, 16%, 6%);
+}
+.pieChart {
+  display: block;
+  box-sizing: border-box;
+  height: 250px;
+  width: 40%;
+}
+#lineChart {
+  width: 30%;
+  display: block;
+  box-sizing: border-box;
+  height: 450px;
+  width: 40%;
+}
+/*  feature */
+.feature-card {
+  background-color: hsl(357, 64%, 100%);
+}
+.feature-card h3,
+.compatibilty-card h3 {
+  color: hsl(12, 16%, 6%);
+}
+.article-card p,
+.article-card li {
+  color: hsl(42, 4%, 44%);
+}
+.compatibilty-card {
+  background-color: hsl(357, 64%, 100%);
+}
+
+@media (max-width: 750px) {
+  .sidebar {
+    visibility: hidden;
+    display: none;
+  }
+}
